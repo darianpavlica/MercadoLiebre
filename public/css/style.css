@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    max-width: 200px;
+    min-width: 150px;
+    align-items:center;
+    padding: 20px;
+    width: 30%;
+}
+
+.logo img {
+    max-width: 400px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 24px;
+}
+
+.input {
+    width: 90%;
+    border: white;
+}
+
+.submit {
+    width: 10%;
+    border: white;
+}
+.cuotas {
+    font-size:15px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    font-size: 13px;
+    background-color: #FFF;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+header .form .submit{
+    background-color: #FFF;
+    color: #666;
+}
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    visibility: hidden;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+    transition: all 1s ease-in;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    left:87%;
+    top: -30px;
+
+}
+
+main section article i:hover {
+    color: rgb(226, 170, 170);
+    transform: rotate(-90deg);
+    transition: transform 2s;
+
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+.precio-desc {
+    display: flex;
+}
+
+.price {
+    flex-grow: 0.3;
+}
+
+.discount {
+    flex-grow: 0.7;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products article {
+    width: 90%;
+}
+
+.menu-nav {
+    display: none;
+}
+
+main section article:hover {
+        box-shadow: 0px 0px 10px rgb(213, 206, 4);
+    }
+
+.login {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login form, .login div, .login input {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    max-width: 700px;;
+    
+}
+
+.login input {
+    margin: 20px;
+    height: 50px;
+}
+
+.login .boton_enviar {
+    background-color: #42f5f2;
+    color: black;
+    transition:all 1s;
+}
+
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: column;
+}
+
+footer div {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+footer div i, footer div h4, footer div p, footer .fas {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    transition: all 2s;
+}
+
+footer div i:hover {
+    color: red;
+    transform: rotate(360deg);
+}
+
+
+.boton_enviar:hover {
+    background-color: #0022AA;
+    color: white;
+}
+ 
+.boton_cancelar:hover {
+    background-color: red;
+    color: white;
+}
+
+article:hover .description {
+    visibility: visible;
+}
+
+.registro {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.registro > input {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.fecha, .archivo, .profile label, .interests label {
+    color: #666;
+}
+
+#label_nac, .registro h4 {
+    width: 100%;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interests div {
+    width: 70%;
+    margin: 10px 0px;
+}
+
+
+.botones input {
+    width: 30%;
+    background-color: #9da3f0;
+}
+
+footer .fas {
+    font-size: 35px;
+    color: blue;
+}
+
+@media (min-width: 468px){
+
+
+    .cuotas {
+        font-size: 22px;
+    }
+
+    .products{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }    
+
+    .products article {
+        width: 44%;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    footer div {
+        width: 30%;
+    }
+
+    footer h4 {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 769px){
+
+    .cuotas {
+        font-size: 18px;
+    }
+
+    
+    .logo, .form, .cuotas {
+        width: 30%;
+    }
+
+
+
+    .products article {
+        width: 22%;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .menu-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+       }
+
+    .menu-nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+        font-size: 17px;
+        max-width: 400px;
+
+    }
+
+    footer p {
+        display: flex;
+    }
+
+}
